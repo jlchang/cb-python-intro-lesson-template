@@ -3,12 +3,14 @@ permalink: index.html
 site: sandpaper::sandpaper_site
 ---
 ::::::::::::::::::::::::::::::::::::: instructor
-## Major lesson update: June 17, 2024
-The Python Intro for Libraries lesson had a major redesign on June 17, 2024. This new Python lesson features a different dataset (of library usage data), uses JupyterLab instead of Spyder, and most of the content was rewritten. If you were familiar with the previous version of the lesson and are planning to teach it again, please give yourself time to review the lesson in full as your prepare.
+## First adaptation of Python Intro for Libraries to Broad Computing Basics: Sept 1, 2024
+The Python Intro for Libraries lesson currently uses a dataset of library usage data and uses Google Colab instead of JupyterLab. If you were familiar with the original version of the lesson and are planning to teach it again, please give yourself time to review the lesson for changes made to "Broadify" the content.
+
+In future, this lesson may be adapted to use a more genomic-oriented dataset.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::
 
-This lesson is an introduction to programming in Python for library and information workers with little or no previous programming experience. It uses examples that are relevant to a range of library use cases, and is designed as a prerequisite for other Python lessons that will be developed in the future (e.g., web scraping, APIs). The lesson uses the JupyterLab computing environment and Python 3.
+This lesson is an introduction to programming in Python requiring little or no previous programming experience. It uses examples that are relevant to a range of basic data exploration use cases, and is designed as a prerequisite for other Python lessons that could be offered in the future. The lesson uses the Google Colab computing environment and Python 3.
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 
@@ -17,7 +19,7 @@ This lesson is an introduction to programming in Python for library and informat
 1. Learners need to understand what files and directories are and
   what a working directory is.
 
-2. Learners must install Python and JupyterLab, and download the dataset that will be used in the lesson, before the workshop begins.
+2. Learners must have a Google account capable of accessing Google Colab. Learners must also download the dataset that will be used in the lesson before the workshop begins.
   
   Please see setup instructions below for details.
   

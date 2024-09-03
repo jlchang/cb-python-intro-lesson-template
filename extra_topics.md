@@ -1,5 +1,5 @@
 ---
-title: Discussion
+title: Extra Topics 
 ---
 
 ## Rules of Debugging
