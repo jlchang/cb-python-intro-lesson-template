@@ -78,9 +78,9 @@ episodes:
 # Information for Learners
 learners: 
   - setup.md
-  - exercises.md
   - reference.md
   - discuss.md
+  - extra_topics.md
 
 # Information for Instructors
 instructors: 
