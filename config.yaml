@@ -1,3 +1,4 @@
+---
 #------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
@@ -8,39 +9,32 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-# 
-# This option supports custom types so lessons can be branded
-# and themed with your own logo and alt-text (see `carpentry_description`)
-# See https://carpentries.github.io/sandpaper-docs/editing.html#adding-a-custom-logo
-carpentry: 'incubator'
-
-# Alt-text description of the lesson.
-carpentry_description: 'Lesson Description'
+carpentry: "incubator"
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: "Introduction to Python"
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME: ( ~ means empty, replace with date formatted as above)
+created: 2024-09-01
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: "lesson"
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: "alpha"
 
-# License of the lesson
-license: 'CC-BY 4.0'
+# License of the lesson materials (recommended CC-BY 4.0)
+license: "CC-BY 4.0"
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-rmd' # FIXME
+source: "FIXME"
 
 # Default branch of your lesson
-branch: 'main'
+branch: "main"
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: "cb-python-admin@broadinstitute.org"
 
 # Navigation ------------------------------------------------
 #
@@ -65,21 +59,38 @@ contact: 'team@carpentries.org' # FIXME
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
-- introduction.Rmd
+episodes:
+  - 01-intro.md
+  - 02-numpy.md
+  - 03-matplotlib.md
+  - 04-lists.md
+  - 05-loop.md
+  - 06-files.md
+  - 07-cond.md
+  - 08-func.md
+  - 09-errors.md
+  - 10-defensive.md
+  - 11-debugging.md
+  - 12-cmdline.md
 
 # Information for Learners
-learners: 
+learners:
+  - setup.md
+  - reference.md
+  - discuss.md
 
 # Information for Instructors
-instructors: 
+instructors:
+  - instructor-notes.md
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
-
+url: "FIXME"
+analytics: carpentries
+lang: en
