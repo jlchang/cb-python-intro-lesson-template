@@ -1,74 +1,46 @@
-# The Carpentries Workbench Template R Markdown Lesson
+# Library Carpentry: Python Intro for Libraries
 
-This lesson is a template lesson that uses [The Carpentries Workbench][workbench].
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12582386.svg)](https://doi.org/10.5281/zenodo.12582386)
 
-## Note about lesson life cycle stage
-Although the `config.yaml` states the life cycle stage as pre-alpha, **the template is stable and ready to use**. The life cycle stage is preset to `"pre-alpha"` as this setting is appropriate for new lessons initialised using the template.
+## Maintainers for Library Carpentry: Python Intro for Libraries
+- [Cody Hennesy](https://github.com/chennesy) (lead)
+- [Tim Dennis](https://github.com/jt14den)
 
-## Create a new repository from this template
+The updated version of this lesson (June 2024) was developed with the assistance of [David Palmquist](https://github.com/quist00) and [Scott Peterson](https://github.com/scottcpeterson).
 
-To use this template to start a new lesson repository, 
-make sure you're logged into Github.   
-Visit https://github.com/carpentries/workbench-template-rmd/generate
-and follow the instructions.
-Checking the 'Include all branches' option will save some time waiting for the first website build
-when your new repository is initialised.
+Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-python-intro-maintainers).
 
-If you have any questions, contact [@tobyhodges](https://github.com/tobyhodges)
+## Past Maintainers for Library Carpentry: Python Intro for Libraries
+- [Konrad Foerstner](https://github.com/konrad)
+- [Drew Heles](https://github.com/dheles)
+- [Elizabeth Wickes](https://github.com/elliewix)
+- [Laura Wrubel](https://github.com/lwrubel)
+- [Carlos Martinez](https://github.com/c-martinez)
+- [Richard Vankoningsveld](https://github.com/richyvk)
 
-## Configure a new lesson
+## Library Carpentry
 
-Follow the steps below to
-complete the initial configuration of a new lesson repository built from this template:
+[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library- and information-related roles. It builds on the work of [Software Carpentry](https://software-carpentry.org/) and [Data Carpentry](https://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
 
-1. **Make sure GitHub Pages is activated:**
-   navigate to _Settings_,
-   select _Pages_ from the left sidebar,
-   and make sure that `gh-pages` is selected as the branch to build from.
-   If no `gh-pages` branch is available, check _Actions_ to see if the first
-   website build workflows are still running.
-   The branch should become available when those have completed.
-1. **Adjust the `config.yaml` file:**
-   this file contains global parameters for your lesson site.
-   Individual fields within the file are documented with comments (beginning with `#`)
-   At minimum, you should adjust all the fields marked 'FIXME':
-   - `title`
-   - `created`
-   - `keywords`
-   - `life_cycle` (the default, _pre-alpha_, is the appropriate for brand new lessons)
-   - `contact`
-1. **Annotate the repository** with site URL and topic tags:
-   navigate back to the repository landing page and
-   click on the gear wheel/cog icon (similar to ⚙️) 
-   at the top-right of the _About_ box.
-   Check the "Use your GitHub Pages website" option,
-   and [add some keywords and other annotations to describe your lesson](https://cdh.carpentries.org/the-carpentries-incubator.html#topic-tags)
-   in the _Topics_ field.
-   At minimum, these should include:
-   - `lesson`
-   - the life cycle of the lesson (e.g. `pre-alpha`)
-   - the human language the lesson is written in (e.g. `deutsch`)
-1. **Adjust the name of the `.Rproj` file.**
-   It is simplest to make this match the name of the repository.
-1. **Adjust the 
-   `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, and `LICENSE.md` files**
-   as appropriate for your project.
-   -  `CODE_OF_CONDUCT.md`: 
-      if you are using this template for a project outside The Carpentries,
-      you should adjust this file to describe 
-      who should be contacted with Code of Conduct reports,
-      and how those reports will be handled.
-   -  `CONTRIBUTING.md`:
-      depending on the current state and maturity of your project,
-      the contents of the template Contributing Guide may not be appropriate.
-      You should adjust the file to help guide contributors on how best
-      to get involved and make an impact on your lesson.
-   -  `LICENSE.md`:
-      in line with the terms of the CC-BY license,
-      you should ensure that the copyright information 
-      provided in the license file is accurate for your project.
-1. **Update this README with 
-   [relevant information about your lesson](https://carpentries.github.io/lesson-development-training/collaborating-newcomers.html#readme)**
-   and delete this section.
+## License
 
-[workbench]: https://carpentries.github.io/sandpaper-docs/
+All Software, Data, and Library Carpentry instructional material is made available under the [Creative Commons Attribution
+license](LICENSE.md).
+
+## Contributing
+
+There are many ways to discuss and contribute to Library Carpentry lessons. The easiest way to get started is to [file an issue](https://github.com/LibraryCarpentry/lc-python-intro/issues) to tell us about a spelling mistake, some awkward wording, or a factual error. This is a good way to introduce yourself and to meet some of our community members. See [Contributing](CONTRIBUTING.md) for more information about contributing Pull Requests and connecting with others in the Carpentries.
+
+## Code of Conduct
+
+All participants should agree to abide by The Carpentries [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html).
+
+## Authors
+
+Library Carpentry is authored and maintained through issues, commits, and pull requests from the community.
+
+## Citation
+
+James Allen, Markus J. Ankenbrand, James Baker, Sean Barberie, Christian Calogero Barra, Trevor Bekolay, John Blischak, K. Azalee Bostroem, Andrew P Boughton, Geoffrey Boushey, Hugo Bowne-Anderson, Petrina Collingwood, Logan Cox, Matt Critchlow, Tim Dennis, Jonah Duckles, Shyam Dwaraknath, Jason Ellis, Rémi Emonet, … yremmits. (2024). LibraryCarpentry/lc-python-intro: Python Intro for Libraries 2024-06 Update (2024.06). Zenodo. https://doi.org/10.5281/zenodo.12582386
+
+
