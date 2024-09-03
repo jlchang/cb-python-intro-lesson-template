@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>Lesson Title: Key Points</title>
+<title>Introduction to Python: Key Points</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="assets/themetoggle.js"></script><link rel="stylesheet" type="text/css" href="assets/styles.css">
 <script src="assets/scripts.js" type="text/javascript"></script><!-- mathjax --><script type="text/x-mathjax-config">
@@ -30,17 +30,17 @@
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
 </head>
 <body>
-    <header id="top" class="navbar navbar-expand-md top-nav incubator"><svg xmlns="http://www.w3.org/2000/svg" class="d-none"><symbol id="check2" viewbox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path></symbol><symbol id="circle-half" viewbox="0 0 16 16"><path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path></symbol><symbol id="moon-stars-fill" viewbox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path></symbol><symbol id="sun-fill" viewbox="0 0 16 16"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path></symbol></svg><a class="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
+    <header id="top" class="navbar navbar-expand-md top-nav library"><svg xmlns="http://www.w3.org/2000/svg" class="d-none"><symbol id="check2" viewbox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path></symbol><symbol id="circle-half" viewbox="0 0 16 16"><path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path></symbol><symbol id="moon-stars-fill" viewbox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path></symbol><symbol id="sun-fill" viewbox="0 0 16 16"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path></symbol></svg><a class="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
   <div class="container-fluid top-nav-container">
     <div class="col-md-8">
       <div class="large-logo">
-        <img id="incubator-logo" alt="Lesson Description" src="assets/images/incubator-logo.svg"><span class="badge text-bg-danger">
-          <abbr title="This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.">
-            <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#early-development-pre-alpha-through-alpha" class="external-link alert-link">
-              <i aria-hidden="true" class="icon" data-feather="alert-octagon" style="border-radius: 5px"></i>
-              Pre-Alpha
+        <img id="lc-logo" alt="Library Carpentry" src="assets/images/library-logo.svg"><span class="badge text-bg-info">
+          <abbr title="This lesson is in the beta phase, which means that it is ready for teaching by instructors outside of the original author team.">
+            <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#polishing-beta-stage" class="external-link alert-link">
+              <i aria-hidden="true" class="icon" data-feather="alert-circle" style="border-radius: 5px"></i>
+              Beta
             </a>
-            <span class="visually-hidden">This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.</span>
+            <span class="visually-hidden">This lesson is in the beta phase, which means that it is ready for teaching by instructors outside of the original author team.</span>
           </abbr>
         </span>
 
@@ -85,16 +85,16 @@
 </div>
     </div>
   </div>
-  <hr></header><nav class="navbar navbar-expand-xl bottom-nav incubator" aria-label="Main Navigation"><div class="container-fluid nav-container">
+  <hr></header><nav class="navbar navbar-expand-xl bottom-nav library" aria-label="Main Navigation"><div class="container-fluid nav-container">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
       <span class="menu-title">Menu</span>
     </button>
     <div class="nav-logo">
-      <img class="small-logo" alt="Lesson Description" src="assets/images/incubator-logo-sm.svg">
+      <img class="small-logo" alt="Library Carpentry" src="assets/images/library-logo-sm.svg">
 </div>
     <div class="lesson-title-md">
-      Lesson Title
+      Introduction to Python
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
@@ -105,7 +105,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 <li class="nav-item">
           <span class="lesson-title">
-            Lesson Title
+            Introduction to Python
           </span>
         </li>
         <li class="nav-item">
@@ -122,7 +122,9 @@
             More <i data-feather="chevron-down"></i>
           </button>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-<li><a class="dropdown-item" href="reference.html">Reference</a></li>
+<li><a class="dropdown-item" href="exercises.html">Discussion</a></li>
+<li><a class="dropdown-item" href="reference.html">Glossary</a></li>
+<li><a class="dropdown-item" href="discuss.html">Discussion</a></li>
           </ul>
 </li>
       </ul>
@@ -141,14 +143,14 @@
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
-  Lesson Title
+  Introduction to Python
 </div>
 
 <aside class="col-md-12 lesson-progress"><div style="width: %" class="percentage">
     %
   </div>
-  <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: %" aria-valuenow="" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress library">
+    <div class="progress-bar library" role="progressbar" style="width: %" aria-valuenow="" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -243,7 +245,151 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Using RMarkdown</a>
+        <a href="getting-started.html">1. Getting Started</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="variables.html">2. Variables and Types</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="lists.html">3. Lists</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="functions.html">4. Built-in Functions and Help</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="libraries.html">5. Libraries &amp; Pandas</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="for-loops.html">6. For Loops</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush8">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading8">
+        <a href="looping-data-sets.html">7. Looping Over Data Sets</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush9">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading9">
+        <a href="pandas.html">8. Using Pandas</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush10">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading10">
+        <a href="conditionals.html">9. Conditionals</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush11">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading11">
+        <a href="writing-functions.html">10. Writing Functions</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush12">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading12">
+        <a href="tidy.html">11. Tidy Data with Pandas</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush13">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading13">
+        <a href="data-visualisation.html">12. Data Visualisation</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush14">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading14">
+        <a href="wrap.html">13. Wrap-Up</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -276,7 +422,9 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-                      <li><a href="reference.html">Reference</a></li>
+                      <li><a href="exercises.html">Discussion</a></li>
+<li><a href="reference.html">Glossary</a></li>
+<li><a href="discuss.html">Discussion</a></li>
                     </ul>
 </div>
                 </div>
@@ -306,17 +454,156 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="introduction"><h2 class="section-heading"><a href="introduction.html">Using RMarkdown</a></h2>
+<section id="getting-started"><h2 class="section-heading"><a href="getting-started.html">Getting Started</a></h2>
 <hr class="half-width">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>You can launch JupyterLab from the command line or from Anaconda
+Navigator.</li>
+<li>You can use a JupyterLab notebook to edit and run Python.</li>
+<li>Notebooks can include both code and markdown (text) cells.</li>
+</ul></section><section id="variables"><h2 class="section-heading"><a href="variables.html">Variables and Types</a></h2>
+<hr class="half-width">
+<ul>
+<li>Use variables to store values.</li>
+<li>Use <code>print</code> to display values.</li>
+<li>Format output with f-strings.</li>
+<li>Variables persist between cells.</li>
+<li>Variables must be created before they are used.</li>
+<li>Variables can be used in calculations.</li>
+<li>Use an index to get a single character from a string.</li>
+<li>Use a slice to get a portion of a string.</li>
+<li>Use the built-in function <code>len</code> to find the length of a
+string.</li>
+<li>Python is case-sensitive.</li>
+<li>Every object has a type.</li>
+<li>Use the built-in function <code>type</code> to find the type of an
+object.</li>
+<li>Types control what operations can be done on objects.</li>
+<li>Variables only change value when something is assigned to them.</li>
+</ul></section><section id="lists"><h2 class="section-heading"><a href="lists.html">Lists</a></h2>
+<hr class="half-width">
+<ul>
+<li>A list stores many values in a single structure.</li>
+<li>Use an item’s index to fetch it from a list.</li>
+<li>Lists’ values can be replaced by assigning to them.</li>
+<li>Appending items to a list lengthens it.</li>
+<li>Use <code>del</code> to remove items from a list entirely.</li>
+<li>Lists may contain values of different types.</li>
+<li>Character strings can be indexed like lists.</li>
+<li>Character strings are immutable.</li>
+<li>Indexing beyond the end of the collection is an error.</li>
+</ul></section><section id="functions"><h2 class="section-heading"><a href="functions.html">Built-in Functions and Help</a></h2>
+<hr class="half-width">
+<ul>
+<li>Use comments to add documentation to programs.</li>
+<li>A function may take zero or more arguments.</li>
+<li>Commonly-used built-in functions include <code>max</code>,
+<code>min</code>, and <code>round</code>.</li>
+<li>Functions may only work for certain (combinations of)
+arguments.</li>
+<li>Functions may have default values for some arguments.</li>
+<li>Use the built-in function <code>help</code> to get help for a
+function.</li>
+<li>Every function returns something.</li>
+</ul></section><section id="libraries"><h2 class="section-heading"><a href="libraries.html">Libraries &amp; Pandas</a></h2>
+<hr class="half-width">
+<ul>
+<li>Most of the power of a programming language is in its
+libraries.</li>
+<li>A program must import a library module in order to use it.</li>
+<li>Use <code>help</code> to learn about the contents of a library
+module.</li>
+<li>Import specific items from a library to shorten programs.</li>
+<li>Create an alias for a library when importing it to shorten
+programs.</li>
+</ul></section><section id="for-loops"><h2 class="section-heading"><a href="for-loops.html">For Loops</a></h2>
+<hr class="half-width">
+<ul>
+<li>A <em>for loop</em> executes commands once for each value in a
+collection.</li>
+<li>The first line of the <code>for</code> loop must end with a colon,
+and the body must be indented.</li>
+<li>Indentation is always meaningful in Python.</li>
+<li>A <code>for</code> loop is made up of a collection, a loop variable,
+and a body.</li>
+<li>Loop variables can be called anything (but it is strongly advised to
+have a meaningful name to the looping variable).</li>
+<li>The body of a loop can contain many statements.</li>
+<li>Use <code>range</code> to iterate over a sequence of numbers.</li>
+<li>The Accumulator pattern turns many values into one.</li>
+</ul></section><section id="looping-data-sets"><h2 class="section-heading"><a href="looping-data-sets.html">Looping Over Data Sets</a></h2>
+<hr class="half-width">
+<ul>
+<li>Use a <code>for</code> loop to process files given a list of their
+names.</li>
+<li>Use <code>glob.glob</code> to find sets of files whose names match a
+pattern.</li>
+<li>Use <code>glob</code> and <code>for</code> to process batches of
+files.</li>
+<li>Use a list “accumulator” to append a DataFrame to an empty list
+<code>[]</code>.</li>
+<li>The <code>.merge()</code>, <code>.join()</code>, and
+<code>.concat()</code> methods can combine pandas DataFrames.</li>
+</ul></section><section id="pandas"><h2 class="section-heading"><a href="pandas.html">Using Pandas</a></h2>
+<hr class="half-width">
+<ul>
+<li>Use builtin methods <code>.sum()</code>, <code>.mean()</code>,
+<code>unique()</code>, and <code>nunique()</code> to explore summary
+statistics on the rows and colums in your DataFrame.</li>
+<li>Use <code>.groupby()</code> to work with subsets of your
+dataset.</li>
+<li>Sort pandas series with <code>.sort_values()</code>.</li>
+<li>Use <code>.loc()</code> and <code>.iloc()</code> to pinpoint
+specific locations in Pandas DataFrames.</li>
+<li>Save DataFrames to CSV and pickle files using <code>.to_csv()</code>
+and <code>.to_pickle()</code>.</li>
+</ul></section><section id="conditionals"><h2 class="section-heading"><a href="conditionals.html">Conditionals</a></h2>
+<hr class="half-width">
+<ul>
+<li>Use <code>if</code> statements to control whether or not a block of
+code is executed.</li>
+<li>Conditionals are often used inside loops.</li>
+<li>Use <code>else</code> to execute a block of code when an
+<code>if</code> condition is <em>not</em> true.</li>
+<li>Use <code>elif</code> to specify additional tests.</li>
+<li>Conditions are tested once, in order.</li>
+<li>Use <code>and</code> and <code>or</code> to check against multiple
+value statements.</li>
+</ul></section><section id="writing-functions"><h2 class="section-heading"><a href="writing-functions.html">Writing Functions</a></h2>
+<hr class="half-width">
+<ul>
+<li>Break programs down into functions to make them easier to
+understand.</li>
+<li>Define a function using <code>def</code> with a name, parameters,
+and a block of code.</li>
+<li>Defining a function does not run it.</li>
+<li>Arguments in call are matched to parameters in definition.</li>
+<li>Functions may return a result to their caller using
+<code>return</code>.</li>
+</ul></section><section id="tidy"><h2 class="section-heading"><a href="tidy.html">Tidy Data with Pandas</a></h2>
+<hr class="half-width">
+<ul>
+<li>In tidy data each variable forms a column, each observation forms a
+row, and each type of observational unit forms a table.</li>
+<li>Using pandas for data manipulation to reshape data is fundamental
+for preparing data for analysis.</li>
+</ul></section><section id="data-visualisation"><h2 class="section-heading"><a href="data-visualisation.html">Data Visualisation</a></h2>
+<hr class="half-width">
+<ul>
+<li>Explored the use of pandas for basic data manipulation, ensuring
+correct indexing with DatetimeIndex to enable time-series operations
+like resampling.</li>
+<li>Used pandas’ built-in plot() for initial visualizations and faced
+issues with overplotting, leading to adjustments like data filtering and
+resampling to simplify plots.</li>
+<li>Introduced Plotly for advanced interactive visualizations, enhancing
+user engagement through dynamic plots such as line graphs, area charts,
+and bar plots with capabilities like dropdown selections.</li>
+</ul></section><section id="wrap"><h2 class="section-heading"><a href="wrap.html">Wrap-Up</a></h2>
+<hr class="half-width">
+<ul>
+<li>Python supports a large community within and outwith research.</li>
+<li>Follow standard Python style (using PEP8) in your code.</li>
 </ul></section>
 </div>
     </main>
@@ -330,12 +617,12 @@ locally</li>
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
 
-        <a href="https://github.com/carpentries/workbench-template-rmd/edit/main/README.md" class="external-link">Edit on GitHub</a>
+        <a href="FIXME/edit/main/README.html">Edit on GitHub</a>
 
 	
-        | <a href="https://github.com/carpentries/workbench-template-rmd/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/carpentries/workbench-template-rmd/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/carpentries/workbench-template-rmd/blob/main/CITATION.cff" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="FIXME/blob/main/CONTRIBUTING.html">Contributing</a>
+        | <a href="FIXME/">Source</a></p>
+				<p><a href="FIXME/blob/main/CITATION.cff">Cite</a> | <a href="mailto:cb-python-admin@broadinstitute.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
 
@@ -355,23 +642,39 @@ locally</li>
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://carpentries.github.io/workbench-template-rmd/key-points.html",
+  "@id": "FIXME/key-points.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "software, data, lesson, The Carpentries",
+  "keywords": "software, data, lesson",
   "name": "Key Points",
   "creativeWorkStatus": "active",
-  "url": "https://carpentries.github.io/workbench-template-rmd/key-points.html",
-  "identifier": "https://carpentries.github.io/workbench-template-rmd/key-points.html",
-  "dateCreated": "2024-09-02",
+  "url": "FIXME/key-points.html",
+  "identifier": "FIXME/key-points.html",
+  "dateCreated": "2024-09-01",
   "dateModified": "2024-09-03",
   "datePublished": "2024-09-03"
 }
 
   </script><script>
 		feather.replace();
-	</script>
+	</script><!-- Matomo --><script>
+          var _paq = window._paq = window._paq || [];
+          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+          _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+          _paq.push(["setDomains", ["*.lessons.carpentries.org","*.datacarpentry.github.io","*.datacarpentry.org","*.librarycarpentry.github.io","*.librarycarpentry.org","*.swcarpentry.github.io", "*.carpentries.github.io"]]);
+          _paq.push(["setDoNotTrack", true]);
+          _paq.push(["disableCookies"]);
+          _paq.push(["trackPageView"]);
+          _paq.push(["enableLinkTracking"]);
+          (function() {
+              var u="https://matomo.carpentries.org/";
+              _paq.push(["setTrackerUrl", u+"matomo.php"]);
+              _paq.push(["setSiteId", "1"]);
+              var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+              g.async=true; g.src="https://matomo.carpentries.org/matomo.js"; s.parentNode.insertBefore(g,s);
+          })();
+        </script><!-- End Matomo Code -->
 </body>
 </html><!-- END:   inst/pkgdown/templates/layout.html-->
 

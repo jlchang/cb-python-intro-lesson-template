@@ -1,81 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/01-introduction.html</loc>
+    <loc>FIXME/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/404.html</loc>
+    <loc>FIXME/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/CODE_OF_CONDUCT.html</loc>
+    <loc>FIXME/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/LICENSE.html</loc>
+    <loc>FIXME/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/aio.html</loc>
+    <loc>FIXME/additional_material.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/images.html</loc>
+    <loc>FIXME/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/index.html</loc>
+    <loc>FIXME/bar_plot_int.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/01-introduction.html</loc>
+    <loc>FIXME/conditionals.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/404.html</loc>
+    <loc>FIXME/data-visualisation.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>FIXME/design.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/LICENSE.html</loc>
+    <loc>FIXME/discuss.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/aio.html</loc>
+    <loc>FIXME/exercises.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/images.html</loc>
+    <loc>FIXME/extra_exercises.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/index.html</loc>
+    <loc>FIXME/for-loops.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/instructor-notes.html</loc>
+    <loc>FIXME/functions.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/introduction.html</loc>
+    <loc>FIXME/getting-started.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/key-points.html</loc>
+    <loc>FIXME/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/keypoints.html</loc>
+    <loc>FIXME/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/profiles.html</loc>
+    <loc>FIXME/instructor/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor/reference.html</loc>
+    <loc>FIXME/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/instructor-notes.html</loc>
+    <loc>FIXME/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/introduction.html</loc>
+    <loc>FIXME/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/key-points.html</loc>
+    <loc>FIXME/instructor/additional_material.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/keypoints.html</loc>
+    <loc>FIXME/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/profiles.html</loc>
+    <loc>FIXME/instructor/conditionals.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-rmd/reference.html</loc>
+    <loc>FIXME/instructor/data-visualisation.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/design.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/discuss.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/exercises.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/extra_exercises.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/for-loops.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/functions.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/getting-started.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/images.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/keypoints.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/libraries.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/lists.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/looping-data-sets.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/pandas.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/tidy.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/variables.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/wrap.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor/writing-functions.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/introduction.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/key-points.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/keypoints.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/libraries.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/line_plot_int.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/lists.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/looping-data-sets.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/pandas.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/profiles.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/reference.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/tidy.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/variables.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/wrap.html</loc>
+  </url>
+  <url>
+    <loc>FIXME/writing-functions.html</loc>
   </url>
 </urlset>
