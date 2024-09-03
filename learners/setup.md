@@ -15,14 +15,13 @@ We will need to import our own resources into Colab, such as our simulated data.
 
 ## Obtain lesson materials
 
-1. Download [python-novice-inflammation-data.zip][zipfile1]
-1. Unzip the file, which will create a directory called `data`.
-1. Create a folder called `swc-python` in your computer's home directory.
-1. Move the `data` folder into `swc-python`.
-1. Log into [Google Drive](https://drive.google.com/drive/my-drive) using the Gmail account you created for this course. You may want to use a private browsing window to do this, if you usually use your Broad account when logging in to Drive.
-1. Upload the lesson content by clicking "+ New" followed by "Folder upload." Select and upload the `swc-python` folder you just created.
+1. Download [this zip file][dataset] and save it to your Desktop. 
+1. Unzip the ```data.zip``` file, which should create a new folder called ```data```.
+1. Create a new folder in your home directory called ```lc-python``` and put the ```data``` folder in this folder.
+1. Log into [Google Drive](https://drive.google.com/drive/my-drive) using the Gmail account you created for this course. You may want to use a private browsing window to do this if you usually use your Broad account when logging in to Drive.
+1. Upload the lesson content by clicking "+ New" followed by "Folder upload." Select and upload the `lc-python` folder you just created.
 
-You should see a `swc-python` folder in "My Drive", with a subfolder called `data`.
+You should see a `lc-python` folder in "My Drive", with a subfolder called `data`.
 
 
 :::::::::::::::::::::::::::::::::::::::::: spoiler
@@ -157,6 +156,5 @@ winpty python
 ::::::::::::::::::::::::::::::::::::::::::
 
 [anaconda-instructions]: https://carpentries.github.io/workshop-template/install_instructions/#python
-[zipfile1]: data/python-novice-inflammation-data.zip
-[zipfile2]: ../episodes/files/code/python-novice-inflammation-code.zip
+[dataset]: episodes/files/data.zip
 [gitbash]: https://gitforwindows.org
